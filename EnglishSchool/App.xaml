@@ -1,0 +1,17 @@
+﻿<Application x:Class="EnglishSchool.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EnglishSchool"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <Style x:Key="tb_Titel" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+            <Setter Property="FontSize" Value="38"/>
+            <Setter Property="Foreground" Value="#FF04A0FF"/>
+        </Style>
+      
+             
+            
+    </Application.Resources>
+</Application>
